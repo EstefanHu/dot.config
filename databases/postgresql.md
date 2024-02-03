@@ -51,4 +51,3 @@ echo "host all all 0.0.0.0/0 md5" | sudo tee -a /etc/postgresql/16/main/pg_hba.c
 sudo systemctl restart postgresql
 sudo ufw allow 5432/tcp
 
-
